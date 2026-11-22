@@ -66,6 +66,12 @@ const share=async()=>{const url=location.protocol==='file:'?'https://wolkanca.co
 $('sample-art').innerHTML=pool[7].illustration;
 $('start').addEventListener('click',start);$('replay').addEventListener('click',start);$('hint').addEventListener('click',revealHint);$('next').addEventListener('click',()=>{if(!state?.answered)return;state.index++;showQuestion()});$('share').addEventListener('click',share);for(let i=0;i<4;i++)$('answer-'+i).addEventListener('click',()=>submitAnswer(state.options[i]));document.addEventListener('keydown',e=>{if(!state||$('game').hidden||state.answered||e.altKey||e.ctrlKey||e.metaKey)return;const index=Number(e.key)-1;if(index>=0&&index<4)submitAnswer(state.options[index])});window.addEventListener('load',notifyHeight);if('ResizeObserver' in window)new ResizeObserver(notifyHeight).observe(document.body);updateIntro();notifyHeight();
 })();
+/* canonical */
+let ref = document.referrer, canonical = document.querySelector("link[rel='canonical']").getAttribute("href");
+ if (!ref || !ref.match(/wolkanca/)) {
+ window.location.href = canonical;
+}
+/* canonical */
 </script>
 </body>
 </html>
