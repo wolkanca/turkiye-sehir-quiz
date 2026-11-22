@@ -82,3 +82,12 @@ Bu oyun **gerçek yapı fotoğrafları değil, simgeleri anlatan çizimler** kul
 - [Sümela Manastırı — Türkiye Müzeleri](https://muze.gov.tr/muze-detay?DistId=MRK&SectionId=SML01)
 
 Yayın öncesinde şehir açıklamalarını düzenli gözden geçirmek, özellikle yeni eklenen soruların şehirle ilişkisini doğrulamak iyi olur.
+
+
+## Oyunlar: 
+- https://wolkanca.com/gercek-haber-mi-uydurma-mi-bu-haberlerin-hangisine-inanirsin
+- https://wolkanca.com/gercek-mi-yapay-zeka-mi-quiz-oyun
+- https://wolkanca.com/yakinlastirilmis-nesneyi-bul-bu-gorselde-ne-var-oyun
+- https://wolkanca.com/turkiyeyi-ne-kadar-taniyorsun-sehir-tahmin-oyunu
+- https://wolkanca.com/terorist-tanima-terorist-testi-oyunu-terorist-quiz
+
